@@ -10,7 +10,7 @@
 	安裝方法請參閱本影片的0:54-1:32
 		安裝影片:https://youtu.be/Wjr7-1ECQwY
 
-2.安bert-vits2主程式
+2.安裝audiocraft_plus主程式
 
 	下載命令在自訂的資料夾中打開cmd或是powershell，輸入下方命令
 	
