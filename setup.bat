@@ -16,7 +16,7 @@ IF NOT EXIST venv (
 call .\venv\Scripts\activate.bat
 
 if %errorlevel% equ 0 (
-    call pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+    call pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
     call pip install -r requirements.txt
     echo Successfully activated virtual environment.
 ) else (
